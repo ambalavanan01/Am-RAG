@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-community
+langchain-huggingface
+langchain-openai
+sentence-transformers
+faiss-cpu
+unstructured
+pdfminer.six
+python-docx
+python-pptx
