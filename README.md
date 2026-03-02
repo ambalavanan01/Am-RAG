@@ -23,8 +23,8 @@ Ensure you have Python 3.10+ installed on your machine.
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/ambalavanan01/Am-RAG.git
-cd your-repository-name
+[git clone https://github.com/ambalavanan01/Am-RAG.git](https://github.com/ambalavanan01/Am-RAG.git)
+cd Am-RAG
 
 # Install the dependencies
 pip install -r requirements.txt
@@ -54,4 +54,5 @@ The application will automatically launch in your default web browser at `http:/
 
 ## ⚠️ Security Warning
 Do **not** commit your raw API keys to GitHub. Ensure keys are rotated if exposed. The uploads folder and vector database are ignored in `.gitignore` to prevent leaking personal documents.
+
 
