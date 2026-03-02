@@ -59,7 +59,7 @@ UPLOAD_DIR = "./uploads"
 DB_DIR = "./faiss_index"
 
 # Hardcoded OpenRouter API Key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "xxxxxxxxxx"
 os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"
 
 # Ensure our local storage folders exist
@@ -206,4 +206,5 @@ if prompt := st.chat_input("Ask a question about your documents..."):
         except Exception as e:
              st.error("Error accessing the database. Please ensure you have indexed documents first.")
              st.write(e)
+
 
